@@ -1,0 +1,2 @@
+# Grant read/write on the Akida misc device nodes (matches BrainChip's original 0666).
+SUBSYSTEM=="misc", KERNEL=="akida*", MODE="0666"
